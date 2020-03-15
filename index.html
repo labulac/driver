@@ -747,7 +747,7 @@
             const buttonParent = button.parentElement;
             const buttonClone = button.cloneNode(true);
             buttonParent.replaceChild(buttonClone, button);
-            input.placeholder = '填入微信公众号获取的密码';
+            input.placeholder = '填入公众号获取的密码';
             buttonClone.addEventListener('click', event => {
                 const passwd = input.value;
                 if (!input.value) {
